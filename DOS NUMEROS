@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)  {
+int NUMEROA,NUMEROB,POTENCIA,DIVISION;
+printf("INGRESE EL NUMERO BASE:  \n");
+scanf("%d",&NUMEROA);
+printf("INGRESE EL NUMERO DEL EXPONENTE: \n");
+scanf("%d",&NUMEROB);
+POTENCIA=pow(NUMEROA,NUMEROB);
+DIVISION=NUMEROA/NUMEROB;
+printf("EL RESULTADO DE  ELEVAR AL EXPONETE ES: %d" ,POTENCIA);
+printf("EL RESULTADO DE LA DIVISION ES: %d",DIVISION);
+return 0;
+}
+
